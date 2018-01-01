@@ -10,11 +10,14 @@ namespace DotNet
     {
         static void Main(string[] args)
         {
-            var names = new List<string> { "<name>", "Ana", "Felipe" };
-foreach (var name in names)
-{
-  Console.WriteLine("Hello "+ name.ToUpper()+ " !");
-}
+            int divOf3 = 0;
+            for(int i=1 ; i<21 ; i++){
+                if (i%3==0){
+                    divOf3+=i;
+                            }
+        }
+           Console.WriteLine(divOf3);
+           Console.ReadLine();
         }
     }
 }
